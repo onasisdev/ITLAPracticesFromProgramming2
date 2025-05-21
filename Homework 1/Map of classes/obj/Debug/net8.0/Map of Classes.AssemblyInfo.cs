@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Map of classes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7efc5bb4dc3b62ab2c3a28bbf2d3fdb548c58b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8dfe59fad9bac6bd41d1221d313495d96011c3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Map of classes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Map of classes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
