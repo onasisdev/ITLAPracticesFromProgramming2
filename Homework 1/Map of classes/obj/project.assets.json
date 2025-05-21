@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Entities.csproj",
-      "projectName": "Entities",
-      "projectPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj",
+      "projectName": "Map of classes",
+      "projectPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj",
       "packagesPath": "C:\\Users\\onasi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of Classes\\Map of Classes.csproj": {}
+    "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of Classes\\Map of Classes.csproj": {
+    "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of Classes\\Map of Classes.csproj",
-        "projectName": "Map of Classes",
-        "projectPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of Classes\\Map of Classes.csproj",
+        "projectUniqueName": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj",
+        "projectName": "Map of classes",
+        "projectPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj",
         "packagesPath": "C:\\Users\\onasi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of Classes\\obj\\",
+        "outputPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
