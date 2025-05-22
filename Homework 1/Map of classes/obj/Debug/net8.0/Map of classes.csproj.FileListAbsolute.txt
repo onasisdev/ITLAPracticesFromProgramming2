@@ -1,0 +1,5 @@
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 1\Map of classes\obj\Debug\net8.0\Map of classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 1\Map of classes\obj\Debug\net8.0\Map of classes.AssemblyInfoInputs.cache
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 1\Map of classes\obj\Debug\net8.0\Map of classes.AssemblyInfo.cs
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 1\Map of classes\obj\Debug\net8.0\Map of classes.csproj.CoreCompileInputs.cache
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 1\Map of classes\obj\Debug\net8.0\Map of classes.sourcelink.json

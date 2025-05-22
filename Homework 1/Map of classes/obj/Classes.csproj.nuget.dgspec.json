@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj": {}
+    "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Classes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj": {
+    "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj",
-        "projectName": "Map of classes",
-        "projectPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Map of classes.csproj",
+        "projectUniqueName": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Classes.csproj",
+        "projectName": "Classes",
+        "projectPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\Classes.csproj",
         "packagesPath": "C:\\Users\\onasi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 1\\Map of classes\\obj\\",
         "projectStyle": "PackageReference",
