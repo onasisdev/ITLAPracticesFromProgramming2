@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Map of classes\Classes.csproj" />
+    <ProjectReference Include="..\Entities\Classes.csproj" />
   </ItemGroup>
 
 </Project>
