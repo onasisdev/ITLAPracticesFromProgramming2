@@ -27,7 +27,7 @@
   },
   {
     "ContainingType": "CRUD_API.Controllers.StudentsController",
-    "Method": "GetAllStudentsById",
+    "Method": "GetStudentById",
     "RelativePath": "api/Students/id{id}",
     "HttpMethod": "GET",
     "IsController": true,
