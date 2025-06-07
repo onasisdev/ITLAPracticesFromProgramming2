@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\models\\entitie\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:models\\entitie\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\models\\updatestudenddto - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:models\\updatestudenddto - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\models\\addstudenddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:models\\addstudenddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\crud_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:crud_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla programming practices\\itlapracticesfromprogramming2\\homework 2\\crud_api\\models\\entitie\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B60445E-36EF-4CDE-BEFA-E8F1936B89B9}|CRUD_API.csproj|solutionrelative:models\\entitie\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,71 +34,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Models\\Entitie\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Entitie\\Student.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Models\\Entitie\\Student.cs",
-              "RelativeToolTip": "Models\\Entitie\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T02:22:43.851Z",
+              "WhenOpened": "2025-06-07T03:23:04.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Title": "UpdateStudenddto - Copy.cs",
+              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Models\\UpdateStudenddto - Copy.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateStudenddto - Copy.cs",
+              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Models\\UpdateStudenddto - Copy.cs",
+              "RelativeToolTip": "Models\\UpdateStudenddto - Copy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T02:21:24.921Z",
+              "WhenOpened": "2025-06-07T03:21:57.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-07T02:21:40.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T02:21:19.671Z",
+              "WhenOpened": "2025-06-07T03:22:20.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CRUD_API.http",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\CRUD_API.http",
-              "RelativeDocumentMoniker": "CRUD_API.http",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\CRUD_API.http",
-              "RelativeToolTip": "CRUD_API.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-07T02:07:33.328Z",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Models\\Entitie\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Entitie\\Student.cs",
+              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Models\\Entitie\\Student.cs",
+              "RelativeToolTip": "Models\\Entitie\\Student.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:45:12.537Z",
               "EditorCaption": ""
             },
             {
@@ -109,9 +96,22 @@
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwFAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T01:55:05.471Z",
+              "WhenOpened": "2025-06-07T02:46:26.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddStudenddto.cs",
+              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Models\\AddStudenddto.cs",
+              "RelativeDocumentMoniker": "Models\\AddStudenddto.cs",
+              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA Programming Practices\\ITLAPracticesFromProgramming2\\Homework 2\\CRUD_API\\Models\\AddStudenddto.cs",
+              "RelativeToolTip": "Models\\AddStudenddto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:45:24.427Z",
               "EditorCaption": ""
             }
           ]

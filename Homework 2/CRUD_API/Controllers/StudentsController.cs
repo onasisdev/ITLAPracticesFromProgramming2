@@ -1,4 +1,6 @@
 ﻿using CRUD_API.Data;
+using CRUD_API.Models;
+using CRUD_API.Models.Entitie;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,9 +25,67 @@ namespace CRUD_API.Controllers
             return Ok(allStudents);
         }
 
-        [HttpPost]
+        [HttpGet]
+        [Route("id{id:int}")]
 
-        public IActionResult AddStudents()
+        public IActionResult GetAllStudentsById(int id)
+        {
+            var student = dbContext.Students.Find(id);
+
+            if (student is null)
+            {
+                return NotFound();
+            }
+
+            return Ok(student);
+
+        }
+        
+        [HttpPost]
+        public IActionResult AddStudents(AddStudenddto addStudenddto)
+        {
+            var studentEntity = new Student()
+            {
+                FirstName = addStudenddto.FirstName,
+                LastName = addStudenddto.LastName,
+                Address = addStudenddto.Address,
+                Email = addStudenddto.Email,
+                PhoneNumber = addStudenddto.PhoneNumber
+            };
+
+            dbContext.Students.Add(studentEntity);
+            dbContext.SaveChanges();
+
+            return Ok(studentEntity);
+
+        }
+
+        [HttpPut]
+        [Route("id{id:int}")]
+
+        public IActionResult UpdateStudent(UpdateStudenddto updateStudenddto, int id)
+        {
+            var student = dbContext.Students.Find(id);
+
+            if (student is null)
+            {
+                return NotFound();
+            }
+
+            student.FirstName = updateStudenddto.FirstName;
+            student.LastName = updateStudenddto.LastName;
+            student.Address = updateStudenddto.Address;
+            student.Email = updateStudenddto.Email;
+            student.PhoneNumber = updateStudenddto.PhoneNumber;
+
+            dbContext.SaveChanges();
+
+            return Ok(student);
+        }
+
+        [HttpDelete]
+
+        public IActionResult DeleteStudents()
         {
 
         }
