@@ -100,7 +100,5 @@ namespace CRUD_API.Controllers
 
             return Ok();
         }
-    }
-
-    
+    } 
 }
