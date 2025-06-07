@@ -28,7 +28,7 @@ namespace CRUD_API.Controllers
         [HttpGet]
         [Route("id{id:int}")]
 
-        public IActionResult GetAllStudentsById(int id)
+        public IActionResult GetStudentById(int id)
         {
             var student = dbContext.Students.Find(id);
 
@@ -83,11 +83,22 @@ namespace CRUD_API.Controllers
             return Ok(student);
         }
 
+        
         [HttpDelete]
-
-        public IActionResult DeleteStudents()
+        [Route("id{id:int}")]
+        public IActionResult DeleteStudent(int id)
         {
+            var student = dbContext.Students.Find(id);
 
+            if (student is null)
+            {
+                NotFound();
+            }
+
+            dbContext.Students.Remove(student);
+            dbContext.SaveChanges();
+
+            return Ok();
         }
     }
 
