@@ -1,30 +1,10 @@
-Homework 1/Map of classes/.vs/Map of classes/FileContentIndex/04c10f8b-6ea4-438a-843e-78dd08b21f4b.vsidx
-Homework 1/Map of classes/.vs/Map of classes/FileContentIndex/0a14c14f-33a7-4c6e-951f-3ba5d792742b.vsidx
-Homework 1/Map of classes/.vs/Map of classes/FileContentIndex/3d2c048e-3f38-4ebf-b631-c5f4c703c277.vsidx
-Homework 1/Map of classes/.vs/Map of classes/FileContentIndex/55d22e91-4f61-4529-b3a4-7caaedce98a7.vsidx
-Homework 1/Map of classes/.vs/Map of classes/FileContentIndex/78744a1c-bdb2-4f4d-84eb-768acbb7e279.vsidx
-Homework 1/Map of classes/.vs/Map of classes/FileContentIndex/db751507-5360-4b57-94e0-a2af318f5f4c.vsidx
-Homework 1/Map of classes/.vs/Map of classes/DesignTimeBuild/.dtbcache.v2
-Homework 1/Map of classes/.vs/Map of classes/FileContentIndex/bb1e8743-f8f9-49f5-b02d-21f610dc9269.vsidx
-Homework 1/Map of classes/.vs/Map of classes/v17/.futdcache.v2
-Homework 1/Map of classes/.vs/Map of classes/v17/.suo
-Homework 1/Map of classes/.vs/Map of classes/v17/DocumentLayout.backup.json
-Homework 1/Map of classes/.vs/Map of classes/v17/DocumentLayout.json
-Homework 1/Map of classes/.vs/ProjectEvaluation/map of classes.metadata.v9.bin
-Homework 1/Map of classes/.vs/ProjectEvaluation/map of classes.projects.v9.bin
-Homework 1/Map of classes/.vs/ProjectEvaluation/map of classes.strings.v9.bin
-Homework 1/Entities/.vs/Map of classes/FileContentIndex/a7dfe4c8-4f14-4b16-9e58-f876decb9056.vsidx
-Homework 1/Entities/.vs/Map of classes/FileContentIndex/b79717ae-7109-4055-acf1-7a1880a8330a.vsidx
-Homework 1/Entities/.vs/Map of classes/v17/.futdcache.v2
-Homework 1/Entities/.vs/Map of classes/v17/.suo
-Homework 1/Entities/.vs/Map of classes/FileContentIndex/b79717ae-7109-4055-acf1-7a1880a8330a.vsidx
-Homework 1/Entities/.vs/Map of classes/v17/.futdcache.v2
-Homework 1/Entities/.vs/Map of classes/v17/.suo
-Homework 1/Entities/.vs/Map of classes/FileContentIndex/b79717ae-7109-4055-acf1-7a1880a8330a.vsidx
-Homework 1/Entities/.vs/Map of classes/v17/.futdcache.v2
-Homework 1/Entities/.vs/Map of classes/v17/.suo
-Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/1fb08cc8-b1b9-4310-b1af-2aaab61bc92a.vsidx
-Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/32db35f7-a63a-4893-a12b-688e47c90be8.vsidx
-Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/5947e43d-9dbb-42af-8051-b8dcbf59fded.vsidx
-Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/6907fd18-9ac8-44b4-a0a4-4c202ffee335.vsidx
-Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/da8b2e85-dfaf-461e-b917-788398e25952.vsidx
+# Visual Studio settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
