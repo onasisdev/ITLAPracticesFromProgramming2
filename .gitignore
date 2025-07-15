@@ -1,10 +1,61 @@
-# Visual Studio settings
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+# Archivos temporales y de sistema
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
 
-# Build results
+# Archivos de entorno local
+.env
+*.env.*
+
+# Carpetas del IDE/Editor
+.vscode/
+.idea/
+.vs/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# C#, .NET
 bin/
 obj/
+*.user
+*.suo
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# C/C++
+*.exe
+*.out
+*.o
+*.obj
+
+# Otros
+*.db
+*.sqlite
+*.mdb
+*.7z
+*.zip
+*.tar
+*.gz
+
+# Git
+.gitignore
+.gitattributes
