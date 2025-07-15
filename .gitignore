@@ -55,3 +55,14 @@ Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/1fb08cc8-b1b9-4310-b1af-2aaab6
 Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/32db35f7-a63a-4893-a12b-688e47c90be8.vsidx
 Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/6907fd18-9ac8-44b4-a0a4-4c202ffee335.vsidx
 Homework 2/CRUD_API/.vs/CRUD_API/FileContentIndex/da8b2e85-dfaf-461e-b917-788398e25952.vsidx
+
+# Visual Studio settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
