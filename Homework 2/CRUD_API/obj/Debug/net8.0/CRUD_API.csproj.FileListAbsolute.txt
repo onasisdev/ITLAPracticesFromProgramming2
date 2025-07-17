@@ -166,3 +166,7 @@ C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Pr
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 2\CRUD_API\obj\Debug\net8.0\CRUD_API.pdb
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 2\CRUD_API\obj\Debug\net8.0\CRUD_API.genruntimeconfig.cache
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 2\CRUD_API\obj\Debug\net8.0\ref\CRUD_API.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 2\CRUD_API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 2\CRUD_API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 2\CRUD_API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA Programming Practices\ITLAPracticesFromProgramming2\Homework 2\CRUD_API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
