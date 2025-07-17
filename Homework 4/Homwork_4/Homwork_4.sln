@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homwork_4", "Homwork_4.csproj", "{FD9071C7-B069-4FBF-BCCA-C1692997A942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePasswordGenerator.Domain", "..\SecurePasswordGenerator.Domain\SecurePasswordGenerator.Domain.csproj", "{61F3E17A-B169-471F-BACA-F72803CE4033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePasswordGenerator.Infrastructure", "..\SecurePasswordGenerator.Infrastructure\SecurePasswordGenerator.Infrastructure.csproj", "{E956873E-F386-49BD-8E76-109CB0635C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePasswordGenerator.Application", "..\SecurePasswordGenerator.Application\SecurePasswordGenerator.Application.csproj", "{4BF56477-D750-4EFC-9E27-19402AD96B93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD9071C7-B069-4FBF-BCCA-C1692997A942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9071C7-B069-4FBF-BCCA-C1692997A942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9071C7-B069-4FBF-BCCA-C1692997A942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9071C7-B069-4FBF-BCCA-C1692997A942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F3E17A-B169-471F-BACA-F72803CE4033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F3E17A-B169-471F-BACA-F72803CE4033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F3E17A-B169-471F-BACA-F72803CE4033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F3E17A-B169-471F-BACA-F72803CE4033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E956873E-F386-49BD-8E76-109CB0635C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E956873E-F386-49BD-8E76-109CB0635C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E956873E-F386-49BD-8E76-109CB0635C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E956873E-F386-49BD-8E76-109CB0635C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF56477-D750-4EFC-9E27-19402AD96B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF56477-D750-4EFC-9E27-19402AD96B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF56477-D750-4EFC-9E27-19402AD96B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF56477-D750-4EFC-9E27-19402AD96B93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC443ECB-6E99-44F0-ACB1-5A161F3D09EE}
+	EndGlobalSection
+EndGlobal
