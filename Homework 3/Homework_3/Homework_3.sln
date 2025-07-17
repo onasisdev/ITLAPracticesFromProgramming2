@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_3", "Homework_3.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePasswordGenerator.Domain", "..\SecurePasswordGenerator.Domain\SecurePasswordGenerator.Domain.csproj", "{CA7AF748-A366-4131-933A-944E748B5243}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePasswordGenerator.Infrastructure", "..\SecurePasswordGenerator.Infrastructure\SecurePasswordGenerator.Infrastructure.csproj", "{A27D01E7-ECFF-4559-BB06-1D2BED8239A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CA7AF748-A366-4131-933A-944E748B5243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA7AF748-A366-4131-933A-944E748B5243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA7AF748-A366-4131-933A-944E748B5243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27D01E7-ECFF-4559-BB06-1D2BED8239A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27D01E7-ECFF-4559-BB06-1D2BED8239A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27D01E7-ECFF-4559-BB06-1D2BED8239A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27D01E7-ECFF-4559-BB06-1D2BED8239A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
