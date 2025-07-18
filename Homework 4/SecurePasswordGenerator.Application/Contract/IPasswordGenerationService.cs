@@ -7,7 +7,7 @@ using SecurePasswordGenerator.Application.Dtos;
 
 namespace SecurePasswordGenerator.Application.Contract
 {
-    public interface IPasswordGeneratorService
+    public interface IPasswordGenerationService
     {
         Task<string> GeneratePassword(PasswordCriteriaDto criteria);
     }

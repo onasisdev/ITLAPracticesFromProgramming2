@@ -8,9 +8,9 @@ namespace SecurePasswordGenerator.Controllers
     [Route("api/[controller]")]
     public class PasswordGeneratorController : ControllerBase
     {
-        private readonly IPasswordGeneratorService _passwordService;
+        private readonly IPasswordGenerationService _passwordService;
 
-        public PasswordGeneratorController(IPasswordGeneratorService passwordService)
+        public PasswordGeneratorController(IPasswordGenerationService passwordService)
         {
             _passwordService = passwordService;
         }

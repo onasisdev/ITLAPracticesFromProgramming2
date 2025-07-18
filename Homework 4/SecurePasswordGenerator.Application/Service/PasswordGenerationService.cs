@@ -8,7 +8,7 @@ using SecurePasswordGenerator.Application.Dtos;
 
 namespace SecurePasswordGenerator.Application.Service
 {
-    public class PasswordGeneratorService : IPasswordGeneratorService
+    public class PasswordGenerationService : IPasswordGenerationService
     {
       
         public async Task<string> GeneratePassword(PasswordCriteriaDto criteria)
