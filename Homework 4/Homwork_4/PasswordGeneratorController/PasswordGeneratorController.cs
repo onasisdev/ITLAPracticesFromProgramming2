@@ -6,20 +6,25 @@ namespace SecurePasswordGenerator.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class PasswordGeneratorController : ControllerBase
+    public class PasswordGeneratorAndEvaluationController : ControllerBase
     {
         private readonly IPasswordGenerationService _passwordService;
+        private readonly IPasswordEvaluationService _evaluationService;
 
-        public PasswordGeneratorController(IPasswordGenerationService passwordService)
+        public PasswordGeneratorAndEvaluationController(IPasswordGenerationService passwordService, IPasswordEvaluationService evaluationService)
         {
             _passwordService = passwordService;
+            _evaluationService = evaluationService;
         }
 
-        [HttpPost("generate")]
+        [HttpPost("generate_and_evaluate")]
         public async Task<IActionResult> Generate([FromBody] PasswordCriteriaDto criteria)
         {
             var password = await _passwordService.GeneratePassword(criteria);
-            return Ok(new { password });
+            var passwordEvaluator = await _evaluationService.EvaluatePassword(passwordEvaluation);
+            return Ok(new { password}, new {passwordEvaluator });
+            
+        }
         }
     }
-}
+
