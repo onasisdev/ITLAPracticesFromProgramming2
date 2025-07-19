@@ -9,12 +9,12 @@ namespace PasswordGenerator.Domain.Entities
     public class PasswordEvaluation
     {
         public string EvaluationStrengthMessage { get; set; }
-        public string Suggestions { get; set; }
+        public List<string> Suggestions { get; set; }
         
-        public PasswordEvaluation(string evaluationStrengthMessage)
+        public PasswordEvaluation()
         {
             this.EvaluationStrengthMessage = string.Empty;
-            this.Suggestions = string.Empty;
+            this.Suggestions = [];
         }
     }
 }

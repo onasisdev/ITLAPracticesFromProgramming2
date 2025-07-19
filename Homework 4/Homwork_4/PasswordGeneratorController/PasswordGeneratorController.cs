@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using SecurePasswordGenerator.Application.Dtos;
 using SecurePasswordGenerator.Application.Contract;
 
+
 namespace SecurePasswordGenerator.Controllers
 {
     [ApiController]
@@ -18,11 +19,11 @@ namespace SecurePasswordGenerator.Controllers
         }
 
         [HttpPost("generate_and_evaluate")]
-        public async Task<IActionResult> Generate([FromBody] PasswordCriteriaDto criteria)
+        public async Task<IActionResult> GenerateAndEvaluate([FromBody] PasswordCriteriaAndEvaluationDtos CriteriaOrEvaluation)
         {
-            var password = await _passwordService.GeneratePassword(criteria);
-            var passwordEvaluator = await _evaluationService.EvaluatePassword(passwordEvaluation);
-            return Ok(new { password}, new {passwordEvaluator });
+            var password = await _passwordService.GeneratePassword(CriteriaOrEvaluation.Criteria);
+            var passwordEvaluator = await _evaluationService.EvaluatePassword(CriteriaOrEvaluation.Evaluation, CriteriaOrEvaluation.Criteria);
+            return Ok(new { password, passwordEvaluator});
             
         }
         }

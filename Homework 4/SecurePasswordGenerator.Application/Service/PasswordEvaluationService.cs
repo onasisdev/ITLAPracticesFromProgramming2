@@ -11,35 +11,30 @@ namespace SecurePasswordGenerator.Application.Service
     public class PasswordEvaluationService : IPasswordEvaluationService
     {
 
-        public async Task<string> EvaluatePassword(PasswordEvaluationDto passwordEvaluation)
+        public async Task<List<string>> EvaluatePassword(PasswordEvaluationDto passwordEvaluation, PasswordCriteriaDto passwordCriteria)
         {
             var passwordGenerationService = new PasswordGenerationService();
 
-            var criteria = new PasswordCriteriaDto();
+            
+       
+                
+               
 
-            string password = await passwordGenerationService.GeneratePassword(criteria);
+            string password = await passwordGenerationService.GeneratePassword(passwordCriteria);
 
             int amountOfCriteriaCompleted = 0;
-
-           
-
-            
-
-            
-
-
 
 
             if (password.Length < 8)
             {
 
-                passwordEvaluation.Suggestions = """
+                passwordEvaluation.Suggestions.Add( """
 
                     La contraseña es demasiado corta.
                     Asegúrate de que tenga al menos 8 
                     caracteres para mayor seguridad
                     
-                    """;
+                    """);
 
                 Console.WriteLine(passwordEvaluation.Suggestions);
 
@@ -50,57 +45,57 @@ namespace SecurePasswordGenerator.Application.Service
 
             }
 
+
+
             
 
 
-            if (criteria.IncludeUppercaseLetters == false)
+            if (passwordCriteria.IncludeUppercaseLetters == false)
             {
-                passwordEvaluation.Suggestions = "Incluye al menos una letra mayúscula para fortalecer la contraseña.";
-                passwordEvaluation.EvaluationStrengthMessage = "Nivel de seguridad: Media";
+                passwordEvaluation.Suggestions.Add("Incluye al menos una letra mayúscula para fortalecer la contraseña.");
+                
 
-                Console.WriteLine(passwordEvaluation.Suggestions);
-                Console.WriteLine(passwordEvaluation.EvaluationStrengthMessage);
+
+                
+            
+            } 
+            else
+            {
+                
+
+                amountOfCriteriaCompleted += 1;
+            }
+
+
+            if (passwordCriteria.IncludeLowerCaseLetters == false)
+            {
+                passwordEvaluation.Suggestions.Add("Agrega letras minúsculas para mejorar la complejidad de tu contraseña" );
+               
+
+               
+               
+
             } 
             else
             {
                 amountOfCriteriaCompleted += 1;
             }
 
-
-            if (criteria.IncludeLowerCaseLetters == false)
+            if (passwordCriteria.IncludeNumbers == false)
             {
-                passwordEvaluation.Suggestions = "Agrega letras minúsculas para mejorar la complejidad de tu contraseña";
-                passwordEvaluation.EvaluationStrengthMessage = "Nivel de seguridad: Media";
+                passwordEvaluation.Suggestions.Add("Incorpora al menos un número para mejorar la complejidad de tu contraseña.");
+                
 
-                Console.WriteLine(passwordEvaluation.Suggestions);
-                Console.WriteLine(passwordEvaluation.EvaluationStrengthMessage);
 
-            } 
-            else
-            {
-                amountOfCriteriaCompleted += 1;
-            }
-
-            if (criteria.IncludeNumbers == false)
-            {
-                passwordEvaluation.Suggestions = "Incorpora al menos un número para mejorar la complejidad de tu contraseña.";
-                passwordEvaluation.EvaluationStrengthMessage = "Nivel de seguridad: Media";
-
-                Console.WriteLine(passwordEvaluation.Suggestions);
-                Console.WriteLine(passwordEvaluation.EvaluationStrengthMessage);
             }
             else {
                 amountOfCriteriaCompleted += 1;
 
             }
 
-            if (criteria.IncludeSpecialCharacters == false)
+            if (passwordCriteria.IncludeSpecialCharacters == false)
             {
-                passwordEvaluation.Suggestions = "Añade símbolos como @, %, # o & para dificultar que tu contraseña sea adivinada.";
-                passwordEvaluation.EvaluationStrengthMessage = "Nivel de seguridad: Media";
-
-                Console.WriteLine(passwordEvaluation.Suggestions);
-                Console.WriteLine(passwordEvaluation.EvaluationStrengthMessage);
+                passwordEvaluation.Suggestions.Add("Añade símbolos como @, %, # o & para dificultar que tu contraseña sea adivinada.");
 
             } 
             else
@@ -110,10 +105,10 @@ namespace SecurePasswordGenerator.Application.Service
 
             if (password.Contains("1234") || password.Contains("abcd") || password.Contains("querty"))
             {
-                passwordEvaluation.Suggestions = "Evita secuencias predecibles como '1234' o 'abcd'; estas reducen la seguridad de tu contraseña.";
-                passwordEvaluation.EvaluationStrengthMessage = "Nivel de seguridad: Débil";
+                passwordEvaluation.Suggestions.Add("Evita secuencias predecibles como '1234' o 'abcd'; estas reducen la seguridad de tu contraseña.")   ;
+               
 
-                Console.WriteLine(passwordEvaluation.Suggestions);
+               
                 
 
             } else if (!password.Contains("1234") || !password.Contains("abcd") || !password.Contains("querty"))
@@ -135,10 +130,11 @@ namespace SecurePasswordGenerator.Application.Service
                 passwordEvaluation.EvaluationStrengthMessage = "Nivel de seguridad: Fuerte";
             }
 
-                Console.WriteLine(passwordEvaluation.EvaluationStrengthMessage);
+            List<string> strengthMessage = new List<string>();
 
+            strengthMessage.Add(passwordEvaluation.EvaluationStrengthMessage);
 
-            return await Task.FromResult(new string(passwordEvaluation.ToString()));
+            return await Task.FromResult(strengthMessage);
         }
     }
 }

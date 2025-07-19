@@ -13,5 +13,9 @@ namespace SecurePasswordGenerator.Application.Dtos
         public bool IncludeNumbers { get; set; }
         public bool IncludeUppercaseLetters { get; set; }
         public bool IncludeLowerCaseLetters { get; set; }
+
+       
+
+      
     }
 }

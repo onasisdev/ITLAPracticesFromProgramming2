@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SecurePasswordGenerator.Application\SecurePasswordGenerator.Application.csproj" />
+    <ProjectReference Include="..\SecurePasswordGenerator.Domain\SecurePasswordGenerator.Domain.csproj" />
   </ItemGroup>
 
 </Project>

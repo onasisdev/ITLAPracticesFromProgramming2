@@ -9,12 +9,12 @@ namespace SecurePasswordGenerator.Application.Dtos
     public class PasswordEvaluationDto
     {
         public string EvaluationStrengthMessage { get; set; }
-        public string Suggestions { get; set; }
+        public List<string> Suggestions { get; set; }
 
-        public PasswordEvaluationDto(string evaluationStrengthMessage)
+        public PasswordEvaluationDto()
         {
             this.EvaluationStrengthMessage = string.Empty;
-            this.Suggestions = string.Empty;
+            this.Suggestions = [];
         }
     }
 }
