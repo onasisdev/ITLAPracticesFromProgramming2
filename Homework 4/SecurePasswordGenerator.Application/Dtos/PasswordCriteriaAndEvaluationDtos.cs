@@ -12,7 +12,5 @@ namespace SecurePasswordGenerator.Application.Dtos
         public PasswordCriteriaDto Criteria { get; set; }
         public PasswordEvaluationDto Evaluation { get; set; }
 
-    }
-   
-    
+    }  
 }

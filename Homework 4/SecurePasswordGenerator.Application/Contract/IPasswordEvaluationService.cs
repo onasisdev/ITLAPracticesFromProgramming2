@@ -9,8 +9,6 @@ namespace SecurePasswordGenerator.Application.Contract
 {
     public interface IPasswordEvaluationService
     {
-
         Task<List<string>> EvaluatePassword(PasswordEvaluationDto passwordEvaluation, PasswordCriteriaDto passwordCriteria);
-
     }
 }

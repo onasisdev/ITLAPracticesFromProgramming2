@@ -23,9 +23,8 @@ namespace SecurePasswordGenerator.Controllers
         {
             var password = await _passwordService.GeneratePassword(CriteriaOrEvaluation.Criteria);
             var passwordEvaluator = await _evaluationService.EvaluatePassword(CriteriaOrEvaluation.Evaluation, CriteriaOrEvaluation.Criteria);
-            return Ok(new { password, passwordEvaluator});
-            
-        }
+            return Ok(new { password, passwordEvaluator});  
         }
     }
+}
 

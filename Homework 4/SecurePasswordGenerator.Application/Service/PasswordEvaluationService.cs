@@ -15,10 +15,6 @@ namespace SecurePasswordGenerator.Application.Service
         {
             var passwordGenerationService = new PasswordGenerationService();
 
-            
-       
-                
-               
 
             string password = await passwordGenerationService.GeneratePassword(passwordCriteria);
 
@@ -46,23 +42,13 @@ namespace SecurePasswordGenerator.Application.Service
             }
 
 
-
-            
-
-
             if (passwordCriteria.IncludeUppercaseLetters == false)
             {
-                passwordEvaluation.Suggestions.Add("Incluye al menos una letra mayúscula para fortalecer la contraseña.");
-                
-
-
-                
+                passwordEvaluation.Suggestions.Add("Incluye al menos una letra mayúscula para fortalecer la contraseña.");    
             
             } 
             else
-            {
-                
-
+            { 
                 amountOfCriteriaCompleted += 1;
             }
 
@@ -70,10 +56,6 @@ namespace SecurePasswordGenerator.Application.Service
             if (passwordCriteria.IncludeLowerCaseLetters == false)
             {
                 passwordEvaluation.Suggestions.Add("Agrega letras minúsculas para mejorar la complejidad de tu contraseña" );
-               
-
-               
-               
 
             } 
             else
@@ -81,18 +63,18 @@ namespace SecurePasswordGenerator.Application.Service
                 amountOfCriteriaCompleted += 1;
             }
 
+            
             if (passwordCriteria.IncludeNumbers == false)
             {
                 passwordEvaluation.Suggestions.Add("Incorpora al menos un número para mejorar la complejidad de tu contraseña.");
-                
-
 
             }
-            else {
+            else 
+            {
                 amountOfCriteriaCompleted += 1;
-
             }
 
+            
             if (passwordCriteria.IncludeSpecialCharacters == false)
             {
                 passwordEvaluation.Suggestions.Add("Añade símbolos como @, %, # o & para dificultar que tu contraseña sea adivinada.");
@@ -103,14 +85,11 @@ namespace SecurePasswordGenerator.Application.Service
                 amountOfCriteriaCompleted += 1;
             }
 
+            
             if (password.Contains("1234") || password.Contains("abcd") || password.Contains("querty"))
             {
                 passwordEvaluation.Suggestions.Add("Evita secuencias predecibles como '1234' o 'abcd'; estas reducen la seguridad de tu contraseña.")   ;
                
-
-               
-                
-
             } else if (!password.Contains("1234") || !password.Contains("abcd") || !password.Contains("querty"))
             {
                 amountOfCriteriaCompleted += 1;

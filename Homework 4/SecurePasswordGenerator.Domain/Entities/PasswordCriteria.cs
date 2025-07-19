@@ -14,7 +14,5 @@ namespace SecurePasswordGenerator.Domain.Entities
         public bool IncludeUppercaseLetters { get; set; }
         public bool IncludeLowerCaseLetters { get; set; }
 
-        
-
     }
 }
