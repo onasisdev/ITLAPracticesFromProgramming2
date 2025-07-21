@@ -11,7 +11,7 @@ namespace SecurePasswordGenerator.Application.Service
     public class PasswordEvaluationService : IPasswordEvaluationService
     {
 
-        public async Task<List<string>> EvaluatePassword(PasswordEvaluationDto passwordEvaluation, PasswordCriteriaDto passwordCriteria)
+        public async Task<PasswordEvaluationDto> EvaluatePassword(PasswordEvaluationDto passwordEvaluation, PasswordCriteriaDto passwordCriteria)
         {
             var passwordGenerationService = new PasswordGenerationService();
 
@@ -35,10 +35,31 @@ namespace SecurePasswordGenerator.Application.Service
                 Console.WriteLine(passwordEvaluation.Suggestions);
 
             }
-            else if (password.Length >= 8) {
-
+            else if (password.Length >= 8) 
+            {
                 amountOfCriteriaCompleted += 1;
+            }
 
+
+            if (passwordCriteria.IncludeSpecialCharacters == false)
+            {
+                passwordEvaluation.Suggestions.Add("Añade símbolos como @, %, # o & para dificultar que tu contraseña sea adivinada.");
+
+            }
+            else
+            {
+                amountOfCriteriaCompleted += 1;
+            }
+
+            
+            if (passwordCriteria.IncludeNumbers == false)
+            {
+                passwordEvaluation.Suggestions.Add("Incorpora al menos un número para fortalecer la contraseña.");
+
+            }
+            else
+            {
+                amountOfCriteriaCompleted += 1;
             }
 
 
@@ -55,7 +76,7 @@ namespace SecurePasswordGenerator.Application.Service
 
             if (passwordCriteria.IncludeLowerCaseLetters == false)
             {
-                passwordEvaluation.Suggestions.Add("Agrega letras minúsculas para mejorar la complejidad de tu contraseña" );
+                passwordEvaluation.Suggestions.Add("Agrega letras minúsculas para fortalecer la contraseña.");
 
             } 
             else
@@ -63,29 +84,7 @@ namespace SecurePasswordGenerator.Application.Service
                 amountOfCriteriaCompleted += 1;
             }
 
-            
-            if (passwordCriteria.IncludeNumbers == false)
-            {
-                passwordEvaluation.Suggestions.Add("Incorpora al menos un número para mejorar la complejidad de tu contraseña.");
 
-            }
-            else 
-            {
-                amountOfCriteriaCompleted += 1;
-            }
-
-            
-            if (passwordCriteria.IncludeSpecialCharacters == false)
-            {
-                passwordEvaluation.Suggestions.Add("Añade símbolos como @, %, # o & para dificultar que tu contraseña sea adivinada.");
-
-            } 
-            else
-            {
-                amountOfCriteriaCompleted += 1;
-            }
-
-            
             if (password.Contains("1234") || password.Contains("abcd") || password.Contains("querty"))
             {
                 passwordEvaluation.Suggestions.Add("Evita secuencias predecibles como '1234' o 'abcd'; estas reducen la seguridad de tu contraseña.")   ;
@@ -93,9 +92,9 @@ namespace SecurePasswordGenerator.Application.Service
             } else if (!password.Contains("1234") || !password.Contains("abcd") || !password.Contains("querty"))
             {
                 amountOfCriteriaCompleted += 1;
-
             }
 
+            
             if (amountOfCriteriaCompleted <= 2)
             {
                 passwordEvaluation.EvaluationStrengthMessage = "Nivel de seguridad: Débil";
@@ -109,11 +108,15 @@ namespace SecurePasswordGenerator.Application.Service
                 passwordEvaluation.EvaluationStrengthMessage = "Nivel de seguridad: Fuerte";
             }
 
-            List<string> strengthMessage = new List<string>();
 
-            strengthMessage.Add(passwordEvaluation.EvaluationStrengthMessage);
-
-            return await Task.FromResult(strengthMessage);
+            PasswordEvaluationDto result = new PasswordEvaluationDto
+            {
+                EvaluationStrengthMessage = passwordEvaluation.EvaluationStrengthMessage,
+                Suggestions = passwordEvaluation.Suggestions
+            };
+            
+            
+            return await Task.FromResult(result);
         }
     }
 }
