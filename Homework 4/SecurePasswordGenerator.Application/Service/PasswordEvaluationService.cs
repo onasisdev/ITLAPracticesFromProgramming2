@@ -109,14 +109,14 @@ namespace SecurePasswordGenerator.Application.Service
             }
 
 
-            PasswordEvaluationDto result = new PasswordEvaluationDto
+            PasswordEvaluationDto evaluationResult = new PasswordEvaluationDto
             {
                 EvaluationStrengthMessage = passwordEvaluation.EvaluationStrengthMessage,
                 Suggestions = passwordEvaluation.Suggestions
             };
             
             
-            return await Task.FromResult(result);
+            return await Task.FromResult(evaluationResult);
         }
     }
 }
